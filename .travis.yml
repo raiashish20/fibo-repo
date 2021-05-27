@@ -21,8 +21,8 @@ after_success:
 
 # Push them to docker hub
 
- -docker push raiashish20/multi-client
- -docker push raiashish20/multi-nginx
- -docker push raiashish20/multi-server
- -docker push raiashish20/multi-worker
+ - docker push raiashish20/multi-client
+ - docker push raiashish20/multi-nginx
+ - docker push raiashish20/multi-server
+ - docker push raiashish20/multi-worker
 
