@@ -17,7 +17,7 @@ after_success:
 
 #login in docker cli
 
- - echo "$DOCKER_PASSWORD | docker login -u "$DOCKER_ID" --password-stdin
+ - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_ID" --password-stdin
 
 # Push them to docker hub
 
